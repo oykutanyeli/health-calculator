@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  padding: 5rem;
+  /* background-color: aliceblue; */
+}
+
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px; /* Her bir bileşen arasında 10px boşluk */
+}
+
+.verigiris {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.run-button-container {
+  position: relative;
+  height: 200px; /* Adjust as necessary */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.run-button {
+  position: absolute;
+}
+
+.surprise-image {
+  margin-top: 20px;
+  max-width: 30%; /* Resmin genişliğini ayarlayın */
+  height: auto;
+}
